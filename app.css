@@ -84,7 +84,6 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    display: none;
 }
 .header .h1{
 }
@@ -153,11 +152,11 @@ body {
 }
 .seccion .h2{
     font-family: var(--tipo-titulo);
-    font-size: 5em;
+    font-size: 4em;
 }
 .seccion .h3{
     font-family: var(--tipo-titulo);
-    font-size: 3em;
+    font-size: 2.5em;
     font-style: italic;
     color: lightgray;
 }
@@ -224,7 +223,9 @@ body {
     opacity: 1;
 
 }
-.about{}
+.about{
+    
+}
 .about .h2{
     margin: 0 0 1em;
 }
@@ -233,7 +234,7 @@ body {
     /* background: lightblue; */
     margin: 0 0 2em;
     font-size: 1.2em;
-    text-align: left;
+    text-align: center;
 
 }
 .about .rrss{
@@ -258,9 +259,14 @@ body {
 
 
 footer{
-    background: rgb(69, 86, 92)    ;
+    background: rgb(0, 0, 0)    ;
     padding: 2em 0;
     text-align: center;
+}
+
+.footer .span{
+    color: aliceblue;
+    font-size: 0.75em;
 }
 
 
