@@ -67,3 +67,13 @@ body{
     text-decoration: none;
     border-radius: 5px;
 }
+
+.sec1{
+    background-color: #007bff;
+    width: 30%;
+}
+
+.sec2{
+    background-color: black;
+    width: 70%;
+}

@@ -1,0 +1,208 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none; /* Eliminamos la decoración de subrayado predeterminada */
+    font-weight: bold; /* Hacemos que el texto sea negrita */
+    padding: 5px 10px;
+    border-radius: 5px; /* Añadimos un color de fondo para el enlace */
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Arial", sans-serif; /* Fuente personalizada */
+    font-size: 13px; /* Tamaño de fuente personalizado */
+    font-weight: bold; 
+    text-decoration: none; /* Eliminar subrayado */
+    color: inherit; /* Heredar el color del texto del elemento padre */
+    font-weight: inherit; /* Heredar el peso de la fuente del elemento padre */
+    cursor: pointer; 
+}
+
+a:hover{
+    color: blueviolet; 
+}
+
+.divInit{
+    height: 30vh;
+    background-color: #F7CDCF;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #93687B;
+    transition: border-bottom-color 0.3s;
+}
+
+.divInit:hover{
+    border-bottom-color:white;
+}
+
+.section1{
+    height: 15vh;
+    display: flex;
+}
+
+.section2{
+    height: 10vh;
+};
+
+.TipoDeProductos{
+    margin-left: 200px;
+    width: 400px;
+    list-style: none;
+}
+
+.TipoDeProductos li{
+    display: inline-block; /* o display: inline; */
+    margin-right: 100px; 
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.buscador{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador input{
+    width: 300px;
+    border-color: #93687B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent !important;
+}
+
+.buscador input:hover{
+    border-color: white;
+}
+
+
+.buscador input:focus{
+    outline: none;
+}
+
+.menu{
+    display: flex;
+    width: 40%;
+    margin-left: 300px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-right: 30px;
+    margin: 20px;
+}
+
+.sec1{
+    width: 30%;
+    height: 100%;
+}
+
+.sec2{
+    width: 70%;
+    height: 100%;
+}
+
+.sec2 ul{
+    display: flex;
+    list-style: none;
+}
+
+.sec2 ul li{
+    display: flex;
+    margin-right: 80px;
+    margin-top: 20px;    
+}
+
+.sec2 ul li span{
+    width: 200px;
+    height: 200px;
+}
+
+.sec2 ul li span div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec2 ul li span div img{
+    width: 150px;
+    height: 150px;
+}
+
+.divSec{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.precio{
+    margin-top: 50px;
+}
+
+.precio a{
+    font-size: 20px;
+}
+
+.precio div{
+    margin: 20px;
+}
+
+.precio input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #93687B;
+}
+
+.precio input:focus{
+    outline: none;
+}
+
+.categoria{
+    display: flex;
+    margin: 20px;
+    border-top: solid #93687B;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.categoria select{
+    margin: 20px;
+}
+
+.categoria select option{
+    margin: 20px;
+}
+
+.categoria a{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoria select{
+    width: 150px;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #93687B;
+}
