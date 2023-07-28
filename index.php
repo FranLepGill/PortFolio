@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+
+<?php include 'Page1/index.html'; ?>
+
+<!-- <!DOCTYPE html>
 <html>
-<!-- asdasd -->
 
 <head>
     <meta charset="utf-8">
@@ -133,4 +135,4 @@
 
 </body>
 
-</html>
+</html> -->
